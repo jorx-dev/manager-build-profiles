@@ -1,7 +1,7 @@
 # VERSION               1.0.0
 
-FROM opensuse:42.3
-MAINTAINER Michele Bologna <michele.bologna@suse.com>
+FROM suse/sles12sp3:42.3
+MAINTAINER Jordi Bruguera <jbruguera@itechgrup.com>
 
 ARG repo
 ARG cert
