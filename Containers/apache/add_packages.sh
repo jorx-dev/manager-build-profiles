@@ -3,4 +3,6 @@ set -e
 
 zypper --non-interactive --gpg-auto-import-keys ref
 
-zypper --non-interactive in aaa_base aaa_base-extras net-tools timezone vim less sudo tar python python-xml apache2-2.4.23 apache2-prefork
+zypper --non-interactive in aaa_base aaa_base-extras net-tools timezone vim less sudo tar python python-xml apache2 apache2-prefork
+
+zypper --non-interactive patch
