@@ -1,6 +1,6 @@
 # VERSION               1.0.0
 
-FROM suse/sles12sp3:latest
+FROM bci/bci-base:15.7
 MAINTAINER Jordi Bruguera <jbruguera@itechgrup.com>
 
 ARG repo
